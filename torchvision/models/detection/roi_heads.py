@@ -737,6 +737,7 @@ class RoIHeads(torch.nn.Module):
             image_shapes (List[Tuple[H, W]])
             targets (List[Dict])
         """
+        print('go test salil')
         if targets is not None:
             for t in targets:
                 # TODO: https://github.com/pytorch/pytorch/issues/26731
